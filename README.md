@@ -8,7 +8,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/hackersandslackers/jsonld-scraper-tutorial.svg?style=flat-square&colorA=4c566a&logo=GitHub&colorB=ebcb8b)](https://github.com/hackersandslackers/jsonld-scraper-tutorial/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/hackersandslackers/jsonld-scraper-tutorial.svg?style=flat-square&colorA=4c566a&logo=GitHub&colorB=ebcb8b)](https://github.com/hackersandslackers/jsonld-scraper-tutorial/network)
 
-![Extruct Tutorial](https://github.com/hackersandslackers/jsonld-scraper-tutorial/blob/master/.github/json-ld-pyld@2x.jpg?raw=true)
+![Extruct Tutorial](https://github.com/hackersandslackers/jsonld-scraper-tutorial/blob/master/.github/json-ld-pyld-1@2x.jpg?raw=true)
 
 Supercharge your scraper to extract quality page metadata by parsing JSON-LD data via Python's [extruct](https://github.com/scrapinghub/extruct) library.
 
