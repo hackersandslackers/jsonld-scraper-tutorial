@@ -5,7 +5,7 @@ import extruct
 from w3lib.html import get_base_url
 
 
-def scrape(url):
+def scrape(url: str):
     """Parse structured data from a target page."""
     html = get_html(url)
     metadata = get_metadata(html, url)
@@ -23,14 +23,17 @@ def get_html(url):
         'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
     }
     req = requests.get(url, headers=headers)
-    return req.text
+    return req.content
 
 
-def get_metadata(html, url):
+def get_metadata(html: bytes, url: str):
     """Fetch JSON-LD structured data."""
     metadata = extruct.extract(
         html,
-        base_url=get_base_url(html, url),
+        base_url=get_base_url(url),
         syntaxes=['json-ld'],
-    )['json-ld'][0]
+        uniform=True
+    )['json-ld']
+    if bool(metadata) and isinstance(metadata, list):
+        metadata = metadata[0]
     return metadata

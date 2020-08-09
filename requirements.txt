@@ -3,11 +3,11 @@ beautifulsoup4==4.9.1
 certifi==2020.6.20
 chardet==3.0.4
 extruct==0.9.0
-html-text==0.5.1
+html-text==0.5.2
 html5lib==1.1
 idna==2.10
 isodate==0.6.0
-lxml==4.5.1
+lxml==4.5.2
 mf2py==1.1.2
 more-itertools==8.4.0
 packaging==20.4
@@ -19,8 +19,8 @@ rdflib==4.2.2
 rdflib-jsonld==0.5.0
 requests==2.24.0
 six==1.15.0
-soupsieve==1.9.6
-urllib3==1.25.9
+soupsieve==2.0.1
+urllib3==1.25.10
 w3lib==1.22.0
 wcwidth==0.2.5
 webencodings==0.5.1

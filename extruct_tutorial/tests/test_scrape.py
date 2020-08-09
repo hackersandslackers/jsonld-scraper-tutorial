@@ -10,7 +10,7 @@ def url():
 
 
 @pytest.fixture
-def expected_outcome():
+def expected_json():
     """Expected metadata to be returned."""
     return {'@context': 'https://schema.org/', '@type': 'Article',
             'author': {'@type': 'Person', 'name': 'Todd Birchard',
@@ -30,6 +30,7 @@ def expected_outcome():
             'mainEntityOfPage': {'@type': 'WebPage', '@id': 'https://hackersandslackers.com'}}
 
 
-def test_scrape(url, expected_outcome):
+def test_scrape(url, expected_json):
+    """Match scrape's fetched metadata to known value."""
     metadata = scrape(url)
-    assert metadata == expected_outcome
+    assert metadata == expected_json
