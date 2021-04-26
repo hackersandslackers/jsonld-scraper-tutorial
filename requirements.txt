@@ -7,7 +7,7 @@ html-text==0.5.2
 html5lib==1.1
 idna==2.10
 isodate==0.6.0
-lxml==4.5.2
+lxml==4.6.3
 mf2py==1.1.2
 more-itertools==8.5.0
 packaging==20.4
