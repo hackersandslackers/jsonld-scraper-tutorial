@@ -14,7 +14,7 @@ packaging==20.4
 pluggy==0.13.1
 py==1.9.0
 pyparsing==2.4.7
-pytest==6.0.1
+pytest==6.2.5
 rdflib==5.0.0
 rdflib-jsonld==0.5.0
 requests==2.24.0
