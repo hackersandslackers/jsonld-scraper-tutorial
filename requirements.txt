@@ -10,7 +10,7 @@ isodate==0.6.0
 lxml==4.5.2
 mf2py==1.1.2
 more-itertools==8.5.0
-packaging==20.4
+packaging==20.9
 pluggy==0.13.1
 py==1.9.0
 pyparsing==2.4.7
